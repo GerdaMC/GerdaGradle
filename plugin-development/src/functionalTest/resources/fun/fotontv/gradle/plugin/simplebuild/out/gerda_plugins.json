@@ -1,0 +1,36 @@
+{
+    "loader": {
+        "name": "java_plain",
+        "version": "1.0"
+    },
+    "license": "CHANGEME",
+    "plugins": [
+        {
+            "id": "example",
+            "entrypoint": "fun.fotontv.example.Example",
+            "name": "Example",
+            "description": "Just testing things...",
+            "version": "0.1",
+            "branding": {},
+            "links": {
+                "homepage": "https://fotontv.fun",
+                "source": "https://fotontv.fun/source",
+                "issues": "https://fotontv.fun/issues"
+            },
+            "contributors": [
+                {
+                    "name": "FOTONTV",
+                    "description": "Lead Developer"
+                }
+            ],
+            "dependencies": [
+                {
+                    "id": "gerdaapi",
+                    "version": "1.0.0-SNAPSHOT",
+                    "load-order": "after",
+                    "optional": false
+                }
+            ]
+        }
+    ]
+}
