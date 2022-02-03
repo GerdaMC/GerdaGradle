@@ -14,7 +14,7 @@ plugins {
 }
 
 gerda {
-    apiVersion("8.0.0")
+    apiVersion("1.0.0")
     loader {
         name(PluginLoaders.JAVA_PLAIN)
         version("1.0")
