@@ -13,7 +13,7 @@ plugins {
     id("fun.fotontv.gradle.plugin") version "1.0.0"
 }
 
-sponge {
+gerda {
     apiVersion("8.0.0")
     loader {
         name(PluginLoaders.JAVA_PLAIN)
